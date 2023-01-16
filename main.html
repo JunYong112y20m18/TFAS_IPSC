@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPSC積分計算</title>
+    <style>
+
+    header{
+        width: 100%;
+        text-align: center;
+        background-color: aqua;
+    }
+    main{
+        width: 100%;
+        text-align: center;
+        background-color: aqua;
+    }
+    footer{
+        width: 100%;
+        text-align: center;
+        background-color: aqua;
+
+    }   
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>TFAS_IPSC成績計算</h1>
+
+
+    </header>
+    <main>
+        <div id = "shooterNum">
+            <p>輸入Shooter數量:<input  id="shooter" list="shooterList">
+                <datalist id="shooterList">
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                    <option value="4"></option>
+                    <option value="5"></option>
+                    <option value="6"></option>
+                    <option value="7"></option>
+                    <option value="8"></option>
+                    <option value="9"></option>
+                </datalist>
+            </p>
+            <p>輸入Stage數量:<input id="stage" list="stageList">
+                <datalist id="stageList">
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                    <option value="4"></option>
+                    <option value="5"></option>
+                </datalist>
+            </p>
+            <button id="checkBtn">確認</button>
+        </div>
+        
+        <p id="inputScore"></p>
+        <p id="show">
+        </p>
+    </main>
+
+
+    <script src="mainscript.js"></script>
+</body>
+</html>
